@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Nagar Palika, Government of Madhya Pradesh</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="logo.jpg" alt="Government Logo">
+            <h1>ई-नगर पालिका, मध्य प्रदेश शासन</h1>
+            <h2>E-Nagar Palika, Government of Madhya Pradesh</h2>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Quick Pay</a></li>
+            <li><a href="#">Other Services</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="quick-pay">
+            <h3>Quick Pay</h3>
+            <form id="quick-pay-form">
+                <label for="ulb-name">ULB Name*</label>
+                <select id="ulb-name" name="ulb-name">
+                    <option value="indore">Indore Nagar Nigam</option>
+                    <!-- Add other options as needed -->
+                </select>
+                <label for="water-tax-id">Water Tax ID</label>
+                <input type="text" id="water-tax-id" name="water-tax-id">
+                <div class="form-buttons">
+                    <button type="submit" class="submit-btn">Submit</button>
+                    <button type="reset" class="clear-btn">Clear</button>
+                </div>
+            </form>
+            <a href="#" class="search-water-tax-id">Click here To Search Your Water Tax Id</a>
+        </section>
+        <section class="other-services">
+            <h3>Other Services</h3>
+            <ul>
+                <li><a href="#">Click Here To Apply For New Water Connection</a></li>
+                <li><a href="#">Click Here To Track Status Of New Water Connection</a></li>
+                <li><a href="#">Click Here To Payment Of New Water Connection</a></li>
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

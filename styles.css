@@ -1,0 +1,114 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #284990;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    background-color: #222;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+section {
+    width: 45%;
+}
+
+h3 {
+    color: #3b5998;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, select {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit-btn, .clear-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.clear-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.search-water-tax-id {
+    color: #3b5998;
+    text-decoration: none;
+}
+
+.other-services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.other-services ul li {
+    margin-bottom: 10px;
+}
+
+.other-services ul li a {
+    color: #3b5998;
+    text-decoration: none;
+}
