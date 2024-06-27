@@ -47,7 +47,7 @@ nav ul li a:hover {
 
 /* Parallax Section */
 .parallax {
-    background-image: url('logo.jpg'); /* Replace with your image */
+    background-image: url('logo.jpg'); 
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;
