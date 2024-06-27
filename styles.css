@@ -1,3 +1,7 @@
+container{
+    background-image:logo.jpg;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
