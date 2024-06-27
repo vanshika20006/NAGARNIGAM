@@ -1,0 +1,54 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:#5A9BD5;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header, .water-charges, h3{
+    margin: 10px;
+}
+
+.water-charges{
+    text-align: center;
+    padding: 10px;
+    background:  #284990;
+    font-size: 35px;
+    color: white;
+}
+
+
+.search-form{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.search-clear-buttons .search-but, .clear-but{
+    margin: 30px;
+    background: darkblue;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+}
+
+.search-clear-buttons .search-but:hover, .clear-but:hover{
+    color: black;
+    background: white;
+}
+
+p{
+    color: green;
+}
