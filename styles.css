@@ -1,14 +1,16 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
 }
 
 header {
-    background-color: #284990;
-    color: white;
-    text-align: center;
+    background-color: #ddcb00;
+    color: rgb(10, 0, 0);
     padding: 20px 0;
+    text-align: center;
 }
 
 .header-content {
@@ -17,14 +19,8 @@ header {
     align-items: center;
 }
 
-.logo {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px;
-}
-
 nav ul {
-    background-color: #222;
+    background-color: #040b01;
     padding: 10px;
     list-style: none;
     display: flex;
@@ -39,21 +35,69 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #444;
+}
+
+/* Parallax Section */
+.parallax {
+    background-image: url('logo.jpg'); /* Replace with your image */
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.header-content .logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
 }
 
 main {
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
 }
 
 section {
     width: 45%;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
 }
 
 h3 {
     color: #3b5998;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 form {
@@ -62,14 +106,16 @@ form {
 }
 
 label {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
 input, select {
-    margin-bottom: 10px;
-    padding: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-size: 16px;
 }
 
 .form-buttons {
@@ -82,6 +128,7 @@ input, select {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
 }
 
 .submit-btn {
@@ -97,18 +144,31 @@ input, select {
 .search-water-tax-id {
     color: #3b5998;
     text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.search-water-tax-id:hover {
+    text-decoration: underline;
 }
 
 .other-services ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .other-services ul li {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .other-services ul li a {
     color: #3b5998;
     text-decoration: none;
+    font-weight: bold;
+}
+
+.other-services ul li a:hover {
+    text-decoration: underline;
 }
