@@ -1,13 +1,9 @@
-container{
-    background-image:logo.jpg;
-}
-
 body {
+    background-image: url('looggooooo22.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
 }
 
 header {
@@ -21,6 +17,9 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgba(255, 255, 255, 0.7); /* Make background semi-transparent */
+    padding: 20px;
+    border-radius: 10px;
 }
 
 nav ul {
@@ -57,13 +56,18 @@ nav ul li a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
+    display: inline;
     justify-content: center;
     align-items: center;
     position: relative;
-    color: white;
+    color: rgb(18, 8, 44);
     text-align: center;
 }
+
+.parallax .content {
+    margin: 20px; /* Adjust this value as needed */
+}
+
 
 .overlay {
     background: rgba(0, 0, 0, 0.5);
@@ -92,8 +96,8 @@ main {
 
 section {
     width: 45%;
-    background: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background: rgba(255, 255, 255, 0.8); /* Make section background semi-transparent */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin: 20px 0;
     border-radius: 10px;
